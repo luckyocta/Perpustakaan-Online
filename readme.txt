@@ -1,1 +1,1 @@
-File Database (.sql) ada di folder Database, dan juga diluar. keduanya sama isinya (import salah satu)
+File Database (.sql) ada di folder Database
