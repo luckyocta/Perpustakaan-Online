@@ -9,9 +9,8 @@ while ($tampildata = mysqli_fetch_array($ambildata)) {
 
     <form action="halaman/buku/bukuubah_aksi.php" method="post" name="formubah">
     <div class="form-group row">
-            <label for="idbuku" class="col-sm-2 col-form-label">ID Buku</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="idbuku" value="<?php echo $tampildata['idbuku'] ?>" readonly>
+                <input type="hidden" class="form-control" name="idbuku" value="<?php echo $tampildata['idbuku'] ?>" readonly>
             </div>
         </div>
 
