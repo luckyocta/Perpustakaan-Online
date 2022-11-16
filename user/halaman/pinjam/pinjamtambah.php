@@ -5,9 +5,8 @@
 <form action="halaman/pinjam/pinjamtambah_aksi.php" method="post">
     <table>
         <tr>
-            <td>ID Pinjam</td>
             <td>
-                <input type="text" name="idpinjam" placeholder="Masukan ID Peminjaman">
+                <input type="hidden" name="idpinjam" placeholder="Masukan ID Peminjaman">
             </td>
         </tr>
 
